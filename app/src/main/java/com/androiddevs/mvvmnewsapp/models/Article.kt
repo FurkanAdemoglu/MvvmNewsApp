@@ -13,7 +13,7 @@ data class Article(
     @PrimaryKey(autoGenerate = true)
     var fid:Int?=null,
     @SerializedName("author")
-    val author: Any,
+    val author: String,
     @SerializedName("content")
     val content: String,
     @SerializedName("description")

@@ -1,5 +1,7 @@
 package com.androiddevs.mvvmnewsapp.util
 
+
+//T is networkreponse
 sealed class Resource<T>(
     val data:T?=null,
     val message:String?=null
